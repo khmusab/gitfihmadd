@@ -1,0 +1,185 @@
+.container {
+  width: 100%;
+}
+.container .block {
+  width: 100%;
+  text-align: center;
+  padding: 70px 0;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  position: relative;
+}
+.container .block .blackh {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  right: 710px;
+  top: 280px;
+  position: absolute;
+  border: 3px solid white;
+}
+
+.two{
+  width: 100%;
+  margin-top: 200px;
+}
+
+.row{
+  display: flex;
+  gap: 900px;
+}
+
+.circle{
+  border-radius: 49%;
+}
+
+.two ul{
+  display: flex;
+  gap: 50px;
+}
+
+.kvadrat{
+  background-color: #F3F8FF;
+  width: 1000px;
+  height: 378px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.chap .rost{
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.last{
+  transform: translateX(85px);
+}
+
+button {
+  height: 60px;
+  width: 170px;
+  border-radius: 10px;
+  background-color: #3685FB;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+
+.first{
+  transform: translatex(-110px);
+}
+
+.box{
+  border-radius: 5%;
+}
+
+.man{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 3px solid white;
+  position: absolute;
+  top: 360px;
+  right: 350px;
+}
+
+.hind{
+  position: absolute;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 3px solid white;
+  top: 280px;
+  left: 250px;
+}
+
+.girl{
+  position: absolute;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  border: 3px solid white;
+  top: 470px;
+  left: 300px;
+}
+
+.boy{
+  position: absolute;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 3px solid white;
+  top: 600px;
+  left: 150px;
+}
+
+.woman{
+  position: absolute;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border: 3px solid white;
+  top: 750px;
+  left: 350px;
+}
+
+.black{
+  position: absolute;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  border: 3px solid white;
+  top: 540px;
+  right: 190px;
+}
+
+.ayol{
+  position: absolute;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border: 3px solid white;
+  top: 750px;
+  right: 300px;
+}
+
+.container .block h3 {
+  color: #00B3A0;
+}
+.container .block p {
+  color: #697687;
+  width: 35%;
+  margin: auto;
+}
+.container .block .card {
+  width: 35%;
+  height: 10%;
+  background-color: white;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(240, 240, 240);
+}
+.container .block .card h5 {
+  color: #697687;
+}
+.container .block .card p {
+  margin-top: 15px;
+  width: 75%;
+}/*# sourceMappingURL=project.css.map */

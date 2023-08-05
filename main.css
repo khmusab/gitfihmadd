@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgba(248, 248, 248, 1);
+}
+.container {
+    padding: 2% 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+nav a:hover {
+    color:  rgba(54, 133, 251, 1);
+}
+.btn {
+    background-color: rgba(54, 133, 251, 1);
+    width: 120px;
+    height: 50px;
+    transition: .4s;
+    border: 1px  none;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+.btn:hover {
+    border: 1px solid rgba(54, 133, 251, 1);
+    background-color: white;
+    color: rgba(54, 133, 251, 1);
+}
+.page-1 {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.text-1 h1 {
+    font-size: 60px;
+    color: darkblue;
+}
+.text-1 p {
+    color: rgba(105, 118, 135, 1);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 30px 0;
+}
+.page-2 {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    border-radius: 30px;
+    background-color: white;
+    height: 10vh;
+    margin-top: 10vh;
+}
+.page-2 div{
+    transition: .4s;
+    width: 25%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+}
+select {
+    color: darkblue;
+    margin: 10px 0;
+    font-size: 20px;
+    border: none;
+}
+select:hover {
+    background-color: rgba(54, 133, 251, 1);
+    color: white;
+}
+.page-2 div:hover {
+    color: white;
+    border-radius: 30px;
+    background: rgba(54, 133, 251, 1);
+}
+.page-3 {
+    text-align: center;
+    margin-top: 10vh;
+}
+.page-3 h1 {
+    color: rgba(0, 34, 72, 1);
+    font-size: 42px;
+    margin: 10px 0;
+}
+
+.chat {
+    background: linear-gradient(0deg, #F8F8F8, #F8F8F8);
+    box-shadow: 1px 1px 1px 1px rgba(248, 248, 248, 1);
+    align-items: center;
+    padding: 5% 3%;
+    border-radius: 5px;
+    margin-top: 5vh;
+    width: 30%;
+    height: 330px;
+    transition: .4s;
+    border:  2px solid rgb(239, 239, 239);
+}
+.chat p {
+    color:rgba(105, 118, 135, 1);
+    margin: 15px 0;
+}
+.steps {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 3.3%;
+    justify-content: space-between;
+}
+.chat:hover {
+    border:  2px solid rgba(105, 118, 135, 1) ;
+}
+.page-4 {
+    background: rgb(241, 241, 241);
+    padding: 7%;
+}
+.img-location {
+    display: flex;
+    gap: 50px;
+    margin: 50px 0;
+}
+.img-location img {
+    object-fit: contain;
+
+}

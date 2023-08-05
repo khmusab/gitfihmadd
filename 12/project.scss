@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+
+    .block{
+        width: 100%;
+        text-align: center;
+        padding: 70px 0;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+            .blackh{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            right: 720px;
+            top: 280px;
+            position: absolute;
+        }
+
+        h3{
+            color: #00B3A0;
+        }
+        p{
+            color: #697687;
+            width: 35%;
+            margin: auto;
+        }
+
+        .card{
+            width: 35%;
+            height: 10%;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px rgb(240, 240, 240);
+
+            h5{
+                color: #697687;
+            }
+            
+            p{
+                margin-top: 15px;
+                width: 75%;
+            }
+        }
+    }
+
+}
